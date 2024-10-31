@@ -48,7 +48,9 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:boualiamira99@gmail.com">
+                boualiamira99@gmail.com
+              </a>
             </Slide>
           </div>
         </div>
