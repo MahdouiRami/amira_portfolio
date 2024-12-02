@@ -10,20 +10,23 @@ const Header = () => {
         <span className="green">
           <GiCandleFlame />
         </span>
-        <h1>Amira</h1>
+        <h1>L'Art du Management RH</h1>
       </Logo>
       <Nav bar={bar}>
         <span>
-          <a href="#home">Home</a>
+          <a href="#home">Accueil</a>
         </span>
         <span>
           <a href="#service">Services</a>
         </span>
         <span>
-          <a href="#project">Projects</a>
+          <a href="#project">Approches </a>
         </span>
         <span>
-          <a href="#client">Testimonials</a>
+          <a href="#client">Blog </a>
+        </span>
+        <span>
+          <a href="#client">Marketplaces </a>
         </span>
         <span>
           <a href="#footer">Contact</a>

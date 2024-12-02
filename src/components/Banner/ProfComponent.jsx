@@ -11,14 +11,14 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="green">I'am</span>
+            Bonjour <span className="green">je suis</span>
           </h4>
           <h1 className="green">Amira Bouali</h1>
-          <h3>Lorem ipsum dolor sit amet consectetur</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            Spécialiste en Gestion des Ressources Humaines, Management et
+            Consulting, je contribue activement à l’optimisation des talents et
+            à l’amélioration de la performance organisationnelle des entreprises
+            grâce à des approches innovantes.
           </p>
           <button>Let's talk</button>
           <Social>

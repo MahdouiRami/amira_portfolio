@@ -1,7 +1,7 @@
 import React from "react";
-import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
-import { CgWebsite } from "react-icons/cg";
+import { TbPresentationAnalytics } from "react-icons/tb";
+import { SiPowerbi } from "react-icons/si";
+import { FiSmile } from "react-icons/fi";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -11,33 +11,33 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          Mes <span className="green">Services</span>
         </h4>
-        <h1>What I Do</h1>
+        <h1>
+          Des services sur mesure pour optimiser vos talents et votre
+          performance
+        </h1>
       </Slide>
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={TbPresentationAnalytics}
+            title={"Recrutement et Gestion des Talents"}
+            disc={`Grâce à des techniques innovantes comme la PNL et l’analyse des métaprogrammes, j’identifie les candidats les plus adaptés. Expert en sourcing et chasse de talents, je vous aide à attirer des profils rares et stratégiques pour vos équipes.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={SiPowerbi}
+            title={"Analyse des Données RH"}
+            disc={`Je maîtrise des outils tels que Excel avancé, Power BI, et des logiciels RH comme Workday pour analyser vos données RH. Mes services incluent le suivi des performances, la création de tableaux de bord et l’évaluation des besoins en formation.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FiSmile}
+            title={"Bien-être au Travail"}
+            disc={`Je conçois des programmes pour améliorer la qualité de vie au travail (QVT), prévenir les conflits et réduire les risques psychosociaux, garantissant un environnement de travail sain et motivant.`}
           />
         </Slide>
       </Cards>
